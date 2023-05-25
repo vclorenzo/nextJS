@@ -1,13 +1,32 @@
-.main {
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text {
+  color: #777;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-}
+} */
 
-.description {
+/* .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -23,9 +42,9 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
+} */
 
-.description p {
+/* .description p {
   position: relative;
   margin: 0;
   padding: 1rem;
@@ -62,9 +81,9 @@
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
-}
+} */
 
-.card p {
+/* .card p {
   margin: 0;
   opacity: 0.6;
   font-size: 0.9rem;
@@ -102,13 +121,13 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
-}
+} */
 
-.logo {
+/* .logo {
   position: relative;
-}
+} */
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -123,10 +142,10 @@
   .card:hover span {
     transform: none;
   }
-}
+} */
 
 /* Mobile */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -185,9 +204,9 @@
     );
     background-clip: padding-box;
     backdrop-filter: blur(24px);
-  }
+  } */
 
-  .description div {
+/* .description div {
     align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
@@ -200,10 +219,10 @@
     );
     z-index: 1;
   }
-}
+} */
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/* @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -226,4 +245,4 @@
   to {
     transform: rotate(0deg);
   }
-}
+} */
